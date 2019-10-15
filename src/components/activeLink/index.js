@@ -3,12 +3,12 @@ import { useRoute, Link } from 'wouter-preact'
 import style from './style'
 
 export default function ActiveLink(props) {
-  const [isActive] = useRoute(props.to)
+  const [isActive] = useRoute(props.href)
   const s = isActive ? style.active : ''
 
   return (
-    <Link class={s} {...props}>
-      {props.children}
+    <Link {...props}>
+      <a class={s}>{props.children}</a>
     </Link>
   )
 }

@@ -7,8 +7,8 @@ const Header = () => {
     <header class={style.header}>
       <h1>Preact App</h1>
       <nav>
-        <ActiveLink to="/">Home</ActiveLink>
-        <ActiveLink to="/posts">Posts</ActiveLink>
+        <ActiveLink href="/">Home</ActiveLink>
+        <ActiveLink href="/posts">Posts</ActiveLink>
       </nav>
     </header>
   )
