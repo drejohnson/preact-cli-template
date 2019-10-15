@@ -34,8 +34,7 @@
     "postcss-preset-env": "^6.7.0",
     "preact": "^10.0.0",
     "preact-render-to-string": "^5.0.6",
-    "preact-router": "^3.0.1",
-    "wouter-preact": "^2.2.1"
+    "wouter-preact": "^2.3.0"
   },
   "jest": {
     "preset": "jest-preset-preact"

@@ -7896,11 +7896,6 @@ preact-render-to-string@^5.0.6:
   dependencies:
     pretty-format "^3.8.0"
 
-preact-router@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/preact-router/-/preact-router-3.0.1.tgz#a42ef8a25b42847870658c636bb7c65a1deadb5f"
-  integrity sha512-vPnOBm9k79zWKLiOHnG72Mcq71XeEUXo/iWrHyQv8LQVzPT8SUeFauT1cqE/5R2+PPx2yA0tk77YmfbAcXHgUg==
-
 preact@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.0.0.tgz#c528f04ac6c792a04d8c98a5144d8b13e0cf2aed"
@@ -10281,10 +10276,10 @@ worker-rpc@^0.1.0:
   dependencies:
     microevent.ts "~0.1.1"
 
-wouter-preact@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/wouter-preact/-/wouter-preact-2.2.1.tgz#55ebc2c226344d333aeb818b4074976cd96ab154"
-  integrity sha512-D7xOFNvR2vSH0w9GlNeFflWohPXaO5Vpq/qujT+mjXzv/fWfrLwPw6+29aWeCPfzx68luJk6nAOcHOTOLfYqag==
+wouter-preact@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/wouter-preact/-/wouter-preact-2.3.0.tgz#6a3d2ad5e8cc77402877077d1f45a1a3e61ef329"
+  integrity sha512-QFHb+lO8x0GzSuLmt64BgZtfZWIPXCtG6aiGUvTN71Q7fIqAOymkQWLF0SkkliMHyd8LQjANDFx5Wn8Kp4BniA==
 
 wrap-ansi@^2.0.0:
   version "2.1.0"
