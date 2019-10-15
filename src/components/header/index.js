@@ -1,5 +1,5 @@
 import { h } from 'preact'
-import ActiveLink from '../activeLink'
+import ActiveLink from '../ActiveLink'
 import style from './style'
 
 const Header = () => {

@@ -1,11 +1,11 @@
 import { h } from 'preact'
 import { Switch, Route } from 'wouter-preact'
 
-import Header from './header'
+import Header from './Header'
 
 // Code-splitting is automated for routes
-import Home from '../routes/home'
-import Posts from '../routes/posts'
+import Home from '../routes/Home'
+import Posts from '../routes/Posts'
 
 const App = () => (
   <div id="app">
