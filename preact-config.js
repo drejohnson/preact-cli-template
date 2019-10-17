@@ -1,6 +1,3 @@
 export default (config, env, helpers) => {
-  config.module.rules.push({ 
-    test: /\.js?$/,
-    loader: require.resolve('linaria/loader')
-  });
-};
+  config.plugins.push('@loadable/babel-plugin')
+}

@@ -1,7 +1,8 @@
 import { h } from 'preact'
+import loadable from '@loadable/component'
 import style from './style'
 
-import PostList from '../../components/PostList'
+const PostList = loadable(() => import('../../components/PostList'))
 
 const Posts = () => {
   return (
