@@ -1,21 +1,21 @@
 a {
-	display: inline-block;
-	height: 56px;
-	line-height: 56px;
-	padding: 0 15px;
-	min-width: 50px;
-	text-align: center;
-	background: rgba(255,255,255,0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: var(--white);
+	font-size: 1.25rem;
+	text-transform: uppercase;
 	text-decoration: none;
-	color: #FFF;
+	background: rgba(255,255,255,0);
+	height: var(--header-height);
+	padding: 0 var(--spacing-lg);
 	will-change: background-color;
-}
 
-a:hover,
-a:active {
-	background: rgba(0,0,0,0.2);
-}
+	&:hover, &:active {
+		background: rgba(0,0,0,0.2);
+	}
 
-a.active {
-	background: rgba(0,0,0,0.4);
+	&.active {
+		background: rgba(0,0,0,0.4);
+	}
 }
