@@ -11,9 +11,17 @@ const App = () => (
   <div id="app">
     <Header />
     <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/posts" component={Posts} />
-      {/* <Route path='/:rest' component={Error} /> */}
+      <Route path="/">
+        <Home />
+      </Route>
+      <Route path="/posts">
+        <Posts />
+      </Route>
+      <Route path="/:rest">
+        <center>
+          <b>404:</b> Sorry, this page isn't ready yet!
+        </center>
+      </Route>
     </Switch>
   </div>
 )
